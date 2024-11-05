@@ -120,6 +120,77 @@ header {
   font-size: 45px;
 }
 
+.features-description {
+    display: flex;
+    gap: 50px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .features {
+    width: 380px;
+    /* height: 980px; */
+  }
+  .manImgDiv {
+    padding: 0 0 100px 100px;
+    position: relative;
+  }
+  .ftrImg {
+    width: 480px;
+    height: 782px;
+    object-fit: cover;
+  }
+  .features h2 {
+    border-left: #ff900e solid 6px;
+    padding-left: 10px;
+    font-size: 35px;
+  }
+  .card {
+    width: 450px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .experiencediv {
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    width: 250px;
+    height: 110px;
+    background-color: #ff900e;
+    position: absolute;
+    z-index: 20;
+    bottom: 19px;
+    left: 45px;
+  }
+  .archiTagDiv h2 {
+    font-size: 30px;
+  }
+  .someFact {
+    width: 84%;
+    /* display: flex;
+      justify-content: left; */
+    margin-left: auto;
+  }
+  .factCardGroup {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  .factCard {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 140px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border: #ff900e solid 1px;
+    border-radius: 15px;
+  }
+  
 @media screen and (max-width: 576px) {
   nav {
     flex-direction: column;
